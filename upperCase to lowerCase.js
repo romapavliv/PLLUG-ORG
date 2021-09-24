@@ -1,4 +1,4 @@
-function oddOrEven(str) {
+function strCase(str) {
   let newArr = "";
   for (let i = 0; i < str.length; i++) {
     str[i] !== str[i].toUpperCase()
@@ -8,4 +8,4 @@ function oddOrEven(str) {
   return newArr;
 }
 
-console.log(oddOrEven("iT`S jAVA sCRIPT =)"));
+console.log(strCase("iT`S jAVA sCRIPT =)"));
