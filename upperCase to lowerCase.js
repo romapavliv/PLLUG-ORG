@@ -9,3 +9,5 @@ function strCase(str) {
 }
 
 console.log(strCase("iT`S jAVA sCRIPT =)"));
+
+Завдання виконано.
