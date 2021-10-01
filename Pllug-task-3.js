@@ -44,7 +44,6 @@ const func = obj => {
         ? newArr.push(arr[i])
         : arr[i];
     }
-
     return Object.fromEntries(newArr);
 }
 
