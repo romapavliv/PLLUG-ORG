@@ -4,7 +4,7 @@
 // (приклад строки у camel case: thisIsExampleOfTheCamelCase), яка б поєднувала в собі
 // всі елементи масиву які є строками.
 
-const func = (arr) => {
+const func = arr => {
     let camelCase = "";
     const strArr = arr.filter(el => typeof el === 'string');
     strArr.forEach(el => camelCase = (camelCase + el[0].toUpperCase() + el.slice(1)));
@@ -22,7 +22,7 @@ console.log(func(data));
 // відповідний конкретному елементу масива (наприклад 1 = a, 2 = b, 3 = c, 4 = d, …).
 //  Приклад [4, 3, 22, 11] - в результаті маємо отримати [d, c, v, k]
 
-const nums = (ars) => {
+const nums = ars => {
     newArr = [];
     const str = 'abcdefghijklmnopqrstuvwxyz';
     for(let i = 0; i < ars.length; i++) {
