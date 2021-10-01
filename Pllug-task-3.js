@@ -47,7 +47,6 @@ const func = obj => {
         : arr[i];
     }
 
-    Object.fromEntries(newArr);
     return Object.fromEntries(newArr);
 }
 
