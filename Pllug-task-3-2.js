@@ -63,9 +63,6 @@ let endTime;
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Time Tracker was started");
     startTime = new Date();
-    for (let i = 0; i < 1000; i++) {
-        Math.sqrt(i);
-    }
 });
 
 window.onbeforeunload = function () {
