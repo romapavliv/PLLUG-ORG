@@ -41,6 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 window.onbeforeunload = function () {
     endTime = new Date();
-    console.log('Час перебування на сторінці становив: ' + (endTime.getTime() - startTime.getTime()) + ' мсек');
+    console.log(`Час перебування на сторінці становив: ${Math.floor((endTime.getTime() - startTime.getTime())/1000)} сек`);
     return "";
 }
