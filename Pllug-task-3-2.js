@@ -70,3 +70,5 @@ window.onbeforeunload = function () {
     console.log(`Час перебування на сторінці становив: ${Math.floor((endTime.getTime() - startTime.getTime())/1000)} сек`);
     return "";
 }
+
+Завдання виконано але умови в функціях можна упростити.
