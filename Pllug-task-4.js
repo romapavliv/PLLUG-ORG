@@ -39,3 +39,17 @@ for(let i = 0; i < animals.children.length; i++) {
 // Функція яка змінює порядок елементів в списку animals - останній елемент стає першим, передостанній  - другим, і т.д.
 
 Array.from(animals.children).reverse().forEach(el => el.parentNode.appendChild(el));
+
+// Функція яка додає додає новий список id="fish" перед списком birds
+
+const dataFish = ["Shark", "Salmon", "Trout", "Tuna"];
+const ul = document.createElement('ul');
+ul.id = "fish";
+
+for (let i = 0, ln = dataFish.length; i < ln; i++) {
+    let li = document.createElement('li');
+    li.innerHTML = dataFish[i];
+    ul.appendChild(li);
+}
+
+containter.appendChild(ul).after(birds);
