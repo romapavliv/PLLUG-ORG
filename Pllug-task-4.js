@@ -24,3 +24,18 @@ birds.append(newItem);
 
 // Функція яка видаляє всі елементи які мають клас pet, але якщо крім класу pet є ще інші класи, то вони повинні залишитись
 li.forEach(el => el.classList == 'pet'? el.remove() : el);
+
+// Функція яка змінює background-color наступного елемента після елемента з id="cat"
+catItem.nextElementSibling.style.background = "black";
+
+// Функція яка перетворює класи елементів списку animals і додає до цих елементів data-* атрибути з назвою класу який був прибраний. Наприклад: <li class="wild dangerous">Tiger</li> => <li data-wild data-dangerous>Tiger</li>
+
+for(let i = 0; i < animals.children.length; i++) {
+    let classItem = animals.children[i].className.split(' ')[0];
+    animals.children[i].setAttribute(`data-${classItem}`, `data-${classItem}`);
+    animals.children[i].removeAttribute("class");
+}
+
+// Функція яка змінює порядок елементів в списку animals - останній елемент стає першим, передостанній  - другим, і т.д.
+
+Array.from(animals.children).reverse().forEach(el => el.parentNode.appendChild(el));
