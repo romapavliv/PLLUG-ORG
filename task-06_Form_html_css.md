@@ -1,6 +1,5 @@
 ## https://github.com/Nazar-Lysak/pllug-form-html-css
 
-===================================================================
 
 Sign up
 https://nazar-lysak.github.io/pllug-form-html-css/sign-up/index.html
