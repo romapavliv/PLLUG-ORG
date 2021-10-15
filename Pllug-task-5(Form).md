@@ -1,6 +1,6 @@
 https://nazar-lysak.github.io/form-pllug/index.html
 https://github.com/Nazar-Lysak/form-pllug
-
+###
 1. Текстове поле (input) - nickname. Якщо хоч одна умова не виконується, додати червону рамку цьому текстовому полю, умови:
 довжина мінімум 3 символа (включно), максимум 24 символа (включно)
 мінімум 1 буква
