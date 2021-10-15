@@ -12,3 +12,8 @@ https://nazar-lysak.github.io/pllug-form-html-css/forgot-password/index.html
 
 Thank you
 https://nazar-lysak.github.io/pllug-form-html-css/thank-you/index.html
+
+```sh
+Created by Nazarii Lysak
+
+```
