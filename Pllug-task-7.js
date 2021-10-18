@@ -20,3 +20,5 @@ console.group();
 console.log(obj);
 console.log(map);
 console.groupEnd();
+
+Завдання виконано неповністю.
